@@ -1,6 +1,8 @@
 [package]
-name = "minigrep"
+name = "minigrep-extremq"
 version = "0.1.0"
 edition = "2021"
+description = "Example crate from the rustbook."
+license = "MIT OR Apache-2.0"
 
 [dependencies]

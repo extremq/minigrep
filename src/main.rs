@@ -1,4 +1,4 @@
-use minigrep::Config;
+use minigrep_extremq::Config;
 use std::{env, process};
 
 fn main() {
@@ -7,7 +7,7 @@ fn main() {
         process::exit(1);
     });
 
-    minigrep::run(config).unwrap_or_else(|err| {
+    minigrep_extremq::run(config).unwrap_or_else(|err| {
         eprintln!("Application error: {err}");
         process::exit(1);
     })
